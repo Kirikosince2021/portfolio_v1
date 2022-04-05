@@ -22,6 +22,7 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
+.firebase
 .firebaserc
 .firebase.json
 /src/assets/images/
