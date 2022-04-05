@@ -1,28 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+  },
+  methods: {
+    createTitle: function(routeInstance) {
+      if(routeInstance.meta.title) {
+        let setTitle = routeInstance.meta.title;
+        document.title = setTitle;
+      }
+    }
+  },
+  mounted: function() {
+    let routeInstance = this.$route;
+    this.createTitle(routeInstance);
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+@import '../src/assets/styles/reset.css';
+@import '../src/assets/styles/variables.scss';
+@import '../src/assets/styles/global.scss';
 </style>

@@ -1,0 +1,32 @@
+.works {
+  text-align: center;
+  margin-top: 400px;
+
+  .under_line {
+    background-color: $blue;
+  }
+
+  ul {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    text-align: left;
+
+    li {
+      width: 40%;
+      margin: 10px 0;
+
+      &::before {
+        content: '◆';
+        margin-right: 5px;
+      }
+
+      .desc {
+        margin-left: 30px;
+        font-size: 10px;
+      }
+    }
+  }
+}

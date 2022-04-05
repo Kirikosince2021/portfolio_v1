@@ -1,0 +1,22 @@
+{
+  "制作者のプロフィール": "Profile of creator",
+  "使用経験のある技術": "Technology with experience",
+  "個人制作物": "Personal production",
+  "今までに関わったお仕事など": "Jobs involved so far",
+  "その他": "Others",
+  "早稲田大学卒業、病気で療養中に2021年から始めたプログラミングで色々制作中。": "After graduating from Waseda University, he is working on various programming programs that he started in 2021 while he was being treated for illness.",
+  "基本的にWeb開発中心です。主にVue.jsなどを使用したフロントサイドに加え、firebaseやLaravelを使用したサーバーサイドの使用経験あり。": "It's basically web development. In addition to the front side mainly using Vue.js etc., I have experience using the server side using firebase and Laravel.",
+  "時々サイト用のイラスト素材なども自作しています。":"Sometimes I also make my own illustration materials for the site.",
+  "これまでに制作した作品も掲載していますので、よかったら見ていってください。": "The works I have made so far are also posted, so please take a look if you like.",
+  "英語による対応可。":"You can contact me in English.",
+  "言語: 日本語(母国語)/英語(TOEIC900前後)": "Language: Japanese (native language) / English (around TOEIC 900)",
+
+  "多数の利用者を想定して作成した最初のウェブサイトです。ユーザー投稿型の掲示板をベースにしたサイトで、細かい検索が可能。日本語での海外ゲーム拡張プログラム(MOD)の情報共有と紹介を目的に作成しました。入力されたURLから情報をスクレイピングすることでユーザーの入力の手間を減らしたり、URLを検出して自動でリンクが貼られるようにするなど、さまざまな工夫を可能な限り盛り込みました。現在継続開発中&運営準備中。": "This is the first website created for a large number of users. A site based on a user-posted bulletin board that allows detailed searches. Created for the purpose of sharing and introducing information on overseas game extension programs (MODs) in Japanese. We have incorporated various ideas as much as possible, such as scraping information from the entered URL to reduce the user's input effort, and detecting the URL and automatically linking it.Currently under continuous development & preparation for operation.",
+  "Javascript用翻訳ライブラリI18n用アプリケーション。JSON内での括弧表記(\")の正規表現への置換が大変だったため、文字列中に含まれる(\")を正規表現に自動置換し、JSON形式で出力する簡単なWebアプリケーションとして、Reactの勉強を兼ねて作成しました。":"Translation library for Javascript Application for I18n. Since it was difficult to replace the parenthesized notation (\") with a regular expression in JSON, React's is a simple web application that automatically replaces the (\") contained in the string with a regular expression and outputs it in JSON format. I created it for studying.",
+  "個人用途で作成した支出管理のみの非常にシンプルな家系簿アプリケーション。ユーザーがつけた支出履歴から過去の使用額の計算やグラフ表示を行います。コードの整理やスタイルなど改善の余地多め。(レスポンシブ未対応)":"A very simple family book application with only spending management created for personal use. It calculates the past usage amount and displays the graph from the spending history attached by the user. There is plenty of room for improvement such as code organization and style. (Not responsive)",
+
+  "GitHub上で公開中":"Now available on GitHub",
+  "広告収益が発生する可能性のあるサイトのため、コードの一般公開はしておりません。採用などでご覧になりたい場合は別途お問い合わせください。":"The code is not open to the public because it is a site that may generate advertising revenue. Please contact us if you would like to see it for hiring.",
+
+  "Vue2 CLIを使用したフロントサイドのチーム開発業務担当" : "Front-side team development operations using Vue2 CLI"
+}

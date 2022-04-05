@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: $ubun;
+  letter-spacing: 0.105em;
+  background-color: white;
+
+  h1 {
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  .under_line {
+    width: 120px;
+    background-color: $pink;
+    height: 2px;
+    margin: 5px auto 20px;
+  }
+
+  p {
+    font-size: 12px;
+    letter-spacing: 13.5%;
+    font-family: sans-serif;
+    line-height: 148.76%;
+  }
+
+  .small-desc {
+    margin: 5px 0;
+    font-size: 10px;
+    display: block;
+  }
+
+  .last-message {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 300px;
+
+    span {
+      margin: 5px;
+    }
+  }
+}
+
+.archives,.profile,.works,.misc {
+  padding-top: 70px;
+  margin-top: -70px;
+}

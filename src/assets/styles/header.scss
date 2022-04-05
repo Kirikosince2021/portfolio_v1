@@ -1,0 +1,96 @@
+.header {
+  padding: 10px 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: white;
+
+  i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+  .on {
+    color: $blue;
+  }
+  .off {
+    color: gray;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .language-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: $rum;
+    background-color: transparent;
+    cursor: pointer;
+    letter-spacing: 0.105em;
+    border: none;
+  }
+}
+
+.button {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 88px;
+  height: 33px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 13px;
+  letter-spacing: 0.105em;
+  transition: .3s ease-in-out;
+}
+.header__nav li:hover {
+  border: 1px solid black;
+}
+.button1:hover {
+  box-shadow: 5px 5px 0 0 $pink;
+}
+.button2:hover {
+  box-shadow: 5px 5px 0 0 $yellow;
+}
+.button3:hover {
+  box-shadow: 5px 5px 0 0 $green;
+}
+.button4:hover {
+  box-shadow: 5px 5px 0 0 $blue;
+}
+.button5:hover {
+  box-shadow: 5px 5px 0 0 $purple;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    position: initial;
+    nav {
+      ul {
+        display: none;
+      }
+    }
+  }
+}

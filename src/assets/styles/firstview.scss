@@ -1,0 +1,44 @@
+.firstview {
+  width: 100vw;
+  height: 80vh;
+
+  &__image {
+    width: 100%;
+    margin-top: 200px;
+    flex-wrap: wrap;
+  }
+
+  span {
+    margin-bottom: 30px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  img {
+    width: 200px;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .color_bar {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+    a {
+      margin: 0 10px;
+      font-size: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      &:first-of-type { color: $pink; }
+      &:nth-of-type(2) { color: $yellow; }
+      &:nth-of-type(3) { color: $green; }
+      &:nth-of-type(4) { color: $blue; }
+      &:last-of-type { color: $purple; }
+    }
+
+  }
+}

@@ -1,0 +1,63 @@
+.profile {
+  width: 100vw;
+  text-align: center;
+  font-size: 10px;
+
+  .under_line {
+    background-color: $yellow;
+  }
+
+  h2 {
+    margin-top: 50px;
+    font-size: 15px;
+  }
+
+  .skills_list {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 170px;
+  }
+
+  ul {
+    display: block;
+    margin: 20px 0;
+    font-size: 16px;
+    width: 20%;
+    list-style: none;
+
+    &:first-of-type {
+      border-left: 3px solid $pink;
+    }
+    &:nth-of-type(2) {
+      border-left: 3px solid $yellow;
+    }
+    &:nth-of-type(3) {
+      border-left: 3px solid $green;
+    }
+    &:nth-of-type(4) {
+      border-left: 3px solid $blue;
+    }
+    &:last-of-type {
+      border-left: 3px solid $purple;
+    }
+
+    li {
+      margin: 20px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile {
+    .skills_list {
+      width: 95%;
+      li {
+        font-size: 10px;
+      }
+    }
+    p {
+      padding: 10px;
+    }
+  }
+}
